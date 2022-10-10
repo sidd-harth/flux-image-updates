@@ -14,5 +14,5 @@ spec:
     spec:
       containers:
         - name: podinfod
-          image: docker.io/siddharth67/hello-world:1.0.1 # {"$imagepolicy": "flux-system:docker-policy"}
+          image: docker.io/siddharth67/hello-world:1.0.9 # {"$imagepolicy": "flux-system:docker-policy"}
           imagePullPolicy: IfNotPresent
