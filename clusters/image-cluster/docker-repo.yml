@@ -1,0 +1,8 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: docker-repo
+  namespace: flux-system
+spec:
+  image: docker.io/siddharth67/hello-world
+  interval: 1m0s
