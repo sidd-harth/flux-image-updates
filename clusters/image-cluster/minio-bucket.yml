@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   bucketName: test-bucket-minio
-  endpoint: http://139.59.21.103:40819/
+  endpoint: 139.59.21.103:40819
   insecure: true
   interval: 1m0s
   provider: generic
