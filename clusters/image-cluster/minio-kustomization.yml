@@ -10,4 +10,4 @@ spec:
   sourceRef:
     kind: Bucket
     name: minio
-    targetNamespace: default
+   # targetNamespace: default
