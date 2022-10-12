@@ -1,0 +1,12 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: bucket-kust
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  path: ./
+  prune: false
+  sourceRef:
+    kind: Bucket
+    name: minio
